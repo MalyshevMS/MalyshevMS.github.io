@@ -1,2 +1,2 @@
 # MalyshevMS.github.io
-This is my test repo for experementing with html, css and js
+This is my own site built with Jekyll and hosted on GitHub Pages.
