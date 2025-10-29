@@ -1,5 +1,5 @@
 const pages = [
-    { name: "Projects", url: "githubprojects/index.html" }
+    { name: "Projects", url: "githubprojects" }
 ];
 
 const track = document.getElementById("track");

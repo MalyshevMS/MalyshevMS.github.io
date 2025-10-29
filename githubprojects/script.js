@@ -2,30 +2,35 @@ const projects = [
     {
         name: "Combat-Builders",
         url: "https://github.com/MalyshevMS/Combat-Builders",
+        url2: "projects/combat-builders.html",
         description: "My first 2D game built with C++ and OpenGL.",
         tags: ["cpp", "opengl"]
     },
     {
         name: "novo",
         url: "https://github.com/MalyshevMS/novo",
+        url2: "projects/novo.html",
         description: "My first 3D engine built with C++ and OpenGL.",
         tags: ["cpp", "opengl"]
     },
     {
         name: "py3d",
         url: "https://github.com/MalyshevMS/py3d",
+        url2: "projects/py3d.html",
         description: "A simple 3D engine in console with Python.",
         tags: ["py"]
     },
     {
         name: "Maze-game",
         url: "https://github.com/MalyshevMS/Maze-game",
+        url2: "projects/maze-game.html",
         description: "A simple maze game built with Python and Pygame.",
         tags: ["py"]
     },
     {
         name: "Asteroid_shooter",
         url: "https://github.com/MalyshevMS/Asteroid_shooter",
+        url2: "projects/asteroid-shooter.html",
         description: "My first 2D game built with Python and Pygame.",
         tags: ["py"]
     }
@@ -56,6 +61,7 @@ function createCard(p) {
         </div>
         <div class="actions">
           <a class="btn primary" href="${p.url}" target="_blank">Open on GitHub</a>
+          <a class="btn primary" href="${p.url2}">View Project</a>
         </div>`;
     return div;
 }
